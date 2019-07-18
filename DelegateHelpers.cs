@@ -15,6 +15,10 @@ namespace Platform.Reflection.Sigil
                 emitCode(emiter);
                 @delegate = emiter.CreateDelegate();
             }
+            catch(Exception)
+            {
+                // Ignore exception
+            }
             finally
             {
                 if (EqualityComparer<TDelegate>.Default.Equals(@delegate, default))
