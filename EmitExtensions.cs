@@ -122,7 +122,6 @@ namespace Platform.Reflection.Sigil
             return emiter;
         }
 
-
         public static Emit<TDelegate> BranchIfGreaterOrEqual<TDelegate>(this Emit<TDelegate> emiter, bool isSigned, Label label)
         {
             if (isSigned)
