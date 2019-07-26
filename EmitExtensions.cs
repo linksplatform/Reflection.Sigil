@@ -8,17 +8,29 @@ namespace Platform.Reflection.Sigil
         public static Emit<TDelegate> LoadConstantOne<TDelegate>(this Emit<TDelegate> emiter, Type constantType)
         {
             if (constantType == typeof(float))
+            {
                 emiter.LoadConstant(1F);
+            }
             else if (constantType == typeof(double))
+            {
                 emiter.LoadConstant(1D);
+            }
             else if (constantType == typeof(long))
+            {
                 emiter.LoadConstant(1L);
+            }
             else if (constantType == typeof(ulong))
+            {
                 emiter.LoadConstant(1UL);
+            }
             else if (constantType == typeof(int))
+            {
                 emiter.LoadConstant(1);
+            }
             else if (constantType == typeof(uint))
+            {
                 emiter.LoadConstant(1U);
+            }
             else if (constantType == typeof(short))
             {
                 emiter.LoadConstant(1);
@@ -40,24 +52,38 @@ namespace Platform.Reflection.Sigil
                 emiter.Convert<byte>();
             }
             else
+            {
                 throw new NotSupportedException();
+            }
             return emiter;
         }
 
         public static Emit<TDelegate> LoadConstant<TDelegate>(this Emit<TDelegate> emiter, Type constantType, object constantValue)
         {
             if (constantType == typeof(float))
+            {
                 emiter.LoadConstant((float)constantValue);
+            }
             else if (constantType == typeof(double))
+            {
                 emiter.LoadConstant((double)constantValue);
+            }
             else if (constantType == typeof(long))
+            {
                 emiter.LoadConstant((long)constantValue);
+            }
             else if (constantType == typeof(ulong))
+            {
                 emiter.LoadConstant((ulong)constantValue);
+            }
             else if (constantType == typeof(int))
+            {
                 emiter.LoadConstant((int)constantValue);
+            }
             else if (constantType == typeof(uint))
+            {
                 emiter.LoadConstant((uint)constantValue);
+            }
             else if (constantType == typeof(short))
             {
                 emiter.LoadConstant((short)constantValue);
@@ -79,7 +105,9 @@ namespace Platform.Reflection.Sigil
                 emiter.Convert<byte>();
             }
             else
+            {
                 throw new NotSupportedException();
+            }
             return emiter;
         }
 
@@ -100,43 +128,61 @@ namespace Platform.Reflection.Sigil
         public static Emit<TDelegate> LoadArguments<TDelegate>(this Emit<TDelegate> emiter, params ushort[] arguments)
         {
             for (var i = 0; i < arguments.Length; i++)
+            {
                 emiter.LoadArgument(arguments[i]);
+            }
             return emiter;
         }
 
         public static Emit<TDelegate> CompareGreaterThan<TDelegate>(this Emit<TDelegate> emiter, bool isSigned)
         {
             if (isSigned)
+            {
                 emiter.CompareGreaterThan();
+            }
             else
+            {
                 emiter.UnsignedCompareGreaterThan();
+            }
             return emiter;
         }
 
         public static Emit<TDelegate> CompareLessThan<TDelegate>(this Emit<TDelegate> emiter, bool isSigned)
         {
             if (isSigned)
+            {
                 emiter.CompareLessThan();
+            }
             else
+            {
                 emiter.UnsignedCompareLessThan();
+            }
             return emiter;
         }
 
         public static Emit<TDelegate> BranchIfGreaterOrEqual<TDelegate>(this Emit<TDelegate> emiter, bool isSigned, Label label)
         {
             if (isSigned)
+            {
                 emiter.BranchIfGreaterOrEqual(label);
+            }
             else
+            {
                 emiter.UnsignedBranchIfGreaterOrEqual(label);
+            }
             return emiter;
         }
 
         public static Emit<TDelegate> BranchIfLessOrEqual<TDelegate>(this Emit<TDelegate> emiter, bool isSigned, Label label)
         {
             if (isSigned)
+            {
                 emiter.BranchIfLessOrEqual(label);
+            }
             else
+            {
                 emiter.UnsignedBranchIfLessOrEqual(label);
+            }
             return emiter;
         }
     }
