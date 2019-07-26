@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Reflection.Sigil Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Reflection.Sigil</AssemblyTitle>
-    <VersionPrefix>0.0.2</VersionPrefix>
+    <VersionPrefix>0.0.3</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Platform.Reflection.Sigil</AssemblyName>
@@ -21,12 +21,14 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReleaseNotes>Exceptions are now ignored correctly.
+Issues fixes.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Platform.Exceptions" Version="0.1.0" />
     <PackageReference Include="Sigil" Version="4.7.0" />
     <PackageReference Include="Platform.Interfaces" Version="0.0.1" />
+    <PackageReference Include="Platform.Exceptions" Version="0.1.0" />
   </ItemGroup>
 
 </Project>
