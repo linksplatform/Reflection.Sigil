@@ -1,23 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using Sigil;
+using Platform.Exceptions;
 
 namespace Platform.Reflection.Sigil
 {
     public static class DelegateHelpers
     {
-        public static void Compile<TDelegate>(out TDelegate @delegate, Action<Emit<TDelegate>> emitCode)
+        public static TDelegate Compile<TDelegate>(Action<Emit<TDelegate>> emitCode)
         {
-            @delegate = default;
+            var @delegate = default(TDelegate);
             try
             {
                 var emiter = Emit<TDelegate>.NewDynamicMethod();
                 emitCode(emiter);
                 @delegate = emiter.CreateDelegate();
             }
-            catch(Exception)
+            catch(Exception exception)
             {
-                // Ignore exception
+                exception.Ignore();
             }
             finally
             {
@@ -27,6 +28,7 @@ namespace Platform.Reflection.Sigil
                     @delegate = factory.Create();
                 }
             }
+            return @delegate;
         }
     }
 }
