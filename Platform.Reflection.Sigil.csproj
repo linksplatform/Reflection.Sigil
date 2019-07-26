@@ -9,7 +9,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Platform.Reflection.Sigil</AssemblyName>
     <PackageId>Platform.Reflection.Sigil</PackageId>
-    <PackageTags>LinksPlatform;Reflection.Sigil;Extensions;Arrays;Lists;Concurrent;Segments;SegmentWalkers;Stacks;Strings</PackageTags>
+    <PackageTags>LinksPlatform;Reflection.Sigil;DelegateHelpers;EmitExtensions;NotSupportedExceptionDelegateFactory</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/linksplatform/Reflection.Sigil</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
