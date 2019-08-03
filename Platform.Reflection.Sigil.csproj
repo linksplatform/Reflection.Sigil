@@ -27,7 +27,7 @@ Issues fixes.</PackageReleaseNotes>
 
   <ItemGroup>
     <PackageReference Include="Sigil" Version="4.7.0" />
-    <PackageReference Include="Platform.Interfaces" Version="0.0.1" />
+    <PackageReference Include="Platform.Interfaces" Version="0.1.0" />
     <PackageReference Include="Platform.Exceptions" Version="0.1.0" />
   </ItemGroup>
 
