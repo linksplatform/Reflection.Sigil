@@ -12,7 +12,7 @@ Forked from: [Konard/LinksPlatform/Platform/Platform.Helpers/Reflection/Sigil](h
 
 NuGet package: [Platform.Reflection.Sigil](https://www.nuget.org/packages/Platform.Reflection.Sigil)
 
-## [Documentation](https://linksplatform.github.io/Reflection.Sigil/)
+## [Documentation](https://linksplatform.github.io/Reflection.Sigil)
 [PDF file](https://linksplatform.github.io/Reflection.Sigil/Platform.Reflection.Sigil.pdf) with code for e-readers.
 
 ## Depend on
