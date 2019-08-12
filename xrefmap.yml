@@ -1,0 +1,207 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Platform.Reflection.Sigil
+  name: Platform.Reflection.Sigil
+  href: api/Platform.Reflection.Sigil.html
+  commentId: N:Platform.Reflection.Sigil
+  fullName: Platform.Reflection.Sigil
+  nameWithType: Platform.Reflection.Sigil
+- uid: Platform.Reflection.Sigil.DelegateHelpers
+  name: DelegateHelpers
+  href: api/Platform.Reflection.Sigil.DelegateHelpers.html
+  commentId: T:Platform.Reflection.Sigil.DelegateHelpers
+  fullName: Platform.Reflection.Sigil.DelegateHelpers
+  nameWithType: DelegateHelpers
+- uid: Platform.Reflection.Sigil.DelegateHelpers.Compile*
+  name: Compile
+  href: api/Platform.Reflection.Sigil.DelegateHelpers.html#Platform_Reflection_Sigil_DelegateHelpers_Compile_
+  commentId: Overload:Platform.Reflection.Sigil.DelegateHelpers.Compile
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.DelegateHelpers.Compile
+  nameWithType: DelegateHelpers.Compile
+- uid: Platform.Reflection.Sigil.DelegateHelpers.Compile``1(System.Action{Sigil.Emit{``0}})
+  name: Compile<TDelegate>(Action<Emit<TDelegate>>)
+  href: api/Platform.Reflection.Sigil.DelegateHelpers.html#Platform_Reflection_Sigil_DelegateHelpers_Compile__1_System_Action_Sigil_Emit___0___
+  commentId: M:Platform.Reflection.Sigil.DelegateHelpers.Compile``1(System.Action{Sigil.Emit{``0}})
+  name.vb: Compile(Of TDelegate)(Action(Of Emit(Of TDelegate)))
+  fullName: Platform.Reflection.Sigil.DelegateHelpers.Compile<TDelegate>(System.Action<Sigil.Emit<TDelegate>>)
+  fullName.vb: Platform.Reflection.Sigil.DelegateHelpers.Compile(Of TDelegate)(System.Action(Of Sigil.Emit(Of TDelegate)))
+  nameWithType: DelegateHelpers.Compile<TDelegate>(Action<Emit<TDelegate>>)
+  nameWithType.vb: DelegateHelpers.Compile(Of TDelegate)(Action(Of Emit(Of TDelegate)))
+- uid: Platform.Reflection.Sigil.EmitExtensions
+  name: EmitExtensions
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html
+  commentId: T:Platform.Reflection.Sigil.EmitExtensions
+  fullName: Platform.Reflection.Sigil.EmitExtensions
+  nameWithType: EmitExtensions
+- uid: Platform.Reflection.Sigil.EmitExtensions.BranchIfGreaterOrEqual*
+  name: BranchIfGreaterOrEqual
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_BranchIfGreaterOrEqual_
+  commentId: Overload:Platform.Reflection.Sigil.EmitExtensions.BranchIfGreaterOrEqual
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.EmitExtensions.BranchIfGreaterOrEqual
+  nameWithType: EmitExtensions.BranchIfGreaterOrEqual
+- uid: Platform.Reflection.Sigil.EmitExtensions.BranchIfGreaterOrEqual``1(Sigil.Emit{``0},System.Boolean,Sigil.Label)
+  name: BranchIfGreaterOrEqual<TDelegate>(Emit<TDelegate>, Boolean, Label)
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_BranchIfGreaterOrEqual__1_Sigil_Emit___0__System_Boolean_Sigil_Label_
+  commentId: M:Platform.Reflection.Sigil.EmitExtensions.BranchIfGreaterOrEqual``1(Sigil.Emit{``0},System.Boolean,Sigil.Label)
+  name.vb: BranchIfGreaterOrEqual(Of TDelegate)(Emit(Of TDelegate), Boolean, Label)
+  fullName: Platform.Reflection.Sigil.EmitExtensions.BranchIfGreaterOrEqual<TDelegate>(Sigil.Emit<TDelegate>, System.Boolean, Sigil.Label)
+  fullName.vb: Platform.Reflection.Sigil.EmitExtensions.BranchIfGreaterOrEqual(Of TDelegate)(Sigil.Emit(Of TDelegate), System.Boolean, Sigil.Label)
+  nameWithType: EmitExtensions.BranchIfGreaterOrEqual<TDelegate>(Emit<TDelegate>, Boolean, Label)
+  nameWithType.vb: EmitExtensions.BranchIfGreaterOrEqual(Of TDelegate)(Emit(Of TDelegate), Boolean, Label)
+- uid: Platform.Reflection.Sigil.EmitExtensions.BranchIfLessOrEqual*
+  name: BranchIfLessOrEqual
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_BranchIfLessOrEqual_
+  commentId: Overload:Platform.Reflection.Sigil.EmitExtensions.BranchIfLessOrEqual
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.EmitExtensions.BranchIfLessOrEqual
+  nameWithType: EmitExtensions.BranchIfLessOrEqual
+- uid: Platform.Reflection.Sigil.EmitExtensions.BranchIfLessOrEqual``1(Sigil.Emit{``0},System.Boolean,Sigil.Label)
+  name: BranchIfLessOrEqual<TDelegate>(Emit<TDelegate>, Boolean, Label)
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_BranchIfLessOrEqual__1_Sigil_Emit___0__System_Boolean_Sigil_Label_
+  commentId: M:Platform.Reflection.Sigil.EmitExtensions.BranchIfLessOrEqual``1(Sigil.Emit{``0},System.Boolean,Sigil.Label)
+  name.vb: BranchIfLessOrEqual(Of TDelegate)(Emit(Of TDelegate), Boolean, Label)
+  fullName: Platform.Reflection.Sigil.EmitExtensions.BranchIfLessOrEqual<TDelegate>(Sigil.Emit<TDelegate>, System.Boolean, Sigil.Label)
+  fullName.vb: Platform.Reflection.Sigil.EmitExtensions.BranchIfLessOrEqual(Of TDelegate)(Sigil.Emit(Of TDelegate), System.Boolean, Sigil.Label)
+  nameWithType: EmitExtensions.BranchIfLessOrEqual<TDelegate>(Emit<TDelegate>, Boolean, Label)
+  nameWithType.vb: EmitExtensions.BranchIfLessOrEqual(Of TDelegate)(Emit(Of TDelegate), Boolean, Label)
+- uid: Platform.Reflection.Sigil.EmitExtensions.CompareGreaterThan*
+  name: CompareGreaterThan
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_CompareGreaterThan_
+  commentId: Overload:Platform.Reflection.Sigil.EmitExtensions.CompareGreaterThan
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.EmitExtensions.CompareGreaterThan
+  nameWithType: EmitExtensions.CompareGreaterThan
+- uid: Platform.Reflection.Sigil.EmitExtensions.CompareGreaterThan``1(Sigil.Emit{``0},System.Boolean)
+  name: CompareGreaterThan<TDelegate>(Emit<TDelegate>, Boolean)
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_CompareGreaterThan__1_Sigil_Emit___0__System_Boolean_
+  commentId: M:Platform.Reflection.Sigil.EmitExtensions.CompareGreaterThan``1(Sigil.Emit{``0},System.Boolean)
+  name.vb: CompareGreaterThan(Of TDelegate)(Emit(Of TDelegate), Boolean)
+  fullName: Platform.Reflection.Sigil.EmitExtensions.CompareGreaterThan<TDelegate>(Sigil.Emit<TDelegate>, System.Boolean)
+  fullName.vb: Platform.Reflection.Sigil.EmitExtensions.CompareGreaterThan(Of TDelegate)(Sigil.Emit(Of TDelegate), System.Boolean)
+  nameWithType: EmitExtensions.CompareGreaterThan<TDelegate>(Emit<TDelegate>, Boolean)
+  nameWithType.vb: EmitExtensions.CompareGreaterThan(Of TDelegate)(Emit(Of TDelegate), Boolean)
+- uid: Platform.Reflection.Sigil.EmitExtensions.CompareLessThan*
+  name: CompareLessThan
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_CompareLessThan_
+  commentId: Overload:Platform.Reflection.Sigil.EmitExtensions.CompareLessThan
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.EmitExtensions.CompareLessThan
+  nameWithType: EmitExtensions.CompareLessThan
+- uid: Platform.Reflection.Sigil.EmitExtensions.CompareLessThan``1(Sigil.Emit{``0},System.Boolean)
+  name: CompareLessThan<TDelegate>(Emit<TDelegate>, Boolean)
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_CompareLessThan__1_Sigil_Emit___0__System_Boolean_
+  commentId: M:Platform.Reflection.Sigil.EmitExtensions.CompareLessThan``1(Sigil.Emit{``0},System.Boolean)
+  name.vb: CompareLessThan(Of TDelegate)(Emit(Of TDelegate), Boolean)
+  fullName: Platform.Reflection.Sigil.EmitExtensions.CompareLessThan<TDelegate>(Sigil.Emit<TDelegate>, System.Boolean)
+  fullName.vb: Platform.Reflection.Sigil.EmitExtensions.CompareLessThan(Of TDelegate)(Sigil.Emit(Of TDelegate), System.Boolean)
+  nameWithType: EmitExtensions.CompareLessThan<TDelegate>(Emit<TDelegate>, Boolean)
+  nameWithType.vb: EmitExtensions.CompareLessThan(Of TDelegate)(Emit(Of TDelegate), Boolean)
+- uid: Platform.Reflection.Sigil.EmitExtensions.Decrement*
+  name: Decrement
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_Decrement_
+  commentId: Overload:Platform.Reflection.Sigil.EmitExtensions.Decrement
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.EmitExtensions.Decrement
+  nameWithType: EmitExtensions.Decrement
+- uid: Platform.Reflection.Sigil.EmitExtensions.Decrement``1(Sigil.Emit{``0},System.Type)
+  name: Decrement<TDelegate>(Emit<TDelegate>, Type)
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_Decrement__1_Sigil_Emit___0__System_Type_
+  commentId: M:Platform.Reflection.Sigil.EmitExtensions.Decrement``1(Sigil.Emit{``0},System.Type)
+  name.vb: Decrement(Of TDelegate)(Emit(Of TDelegate), Type)
+  fullName: Platform.Reflection.Sigil.EmitExtensions.Decrement<TDelegate>(Sigil.Emit<TDelegate>, System.Type)
+  fullName.vb: Platform.Reflection.Sigil.EmitExtensions.Decrement(Of TDelegate)(Sigil.Emit(Of TDelegate), System.Type)
+  nameWithType: EmitExtensions.Decrement<TDelegate>(Emit<TDelegate>, Type)
+  nameWithType.vb: EmitExtensions.Decrement(Of TDelegate)(Emit(Of TDelegate), Type)
+- uid: Platform.Reflection.Sigil.EmitExtensions.Increment*
+  name: Increment
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_Increment_
+  commentId: Overload:Platform.Reflection.Sigil.EmitExtensions.Increment
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.EmitExtensions.Increment
+  nameWithType: EmitExtensions.Increment
+- uid: Platform.Reflection.Sigil.EmitExtensions.Increment``1(Sigil.Emit{``0},System.Type)
+  name: Increment<TDelegate>(Emit<TDelegate>, Type)
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_Increment__1_Sigil_Emit___0__System_Type_
+  commentId: M:Platform.Reflection.Sigil.EmitExtensions.Increment``1(Sigil.Emit{``0},System.Type)
+  name.vb: Increment(Of TDelegate)(Emit(Of TDelegate), Type)
+  fullName: Platform.Reflection.Sigil.EmitExtensions.Increment<TDelegate>(Sigil.Emit<TDelegate>, System.Type)
+  fullName.vb: Platform.Reflection.Sigil.EmitExtensions.Increment(Of TDelegate)(Sigil.Emit(Of TDelegate), System.Type)
+  nameWithType: EmitExtensions.Increment<TDelegate>(Emit<TDelegate>, Type)
+  nameWithType.vb: EmitExtensions.Increment(Of TDelegate)(Emit(Of TDelegate), Type)
+- uid: Platform.Reflection.Sigil.EmitExtensions.LoadArguments*
+  name: LoadArguments
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_LoadArguments_
+  commentId: Overload:Platform.Reflection.Sigil.EmitExtensions.LoadArguments
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.EmitExtensions.LoadArguments
+  nameWithType: EmitExtensions.LoadArguments
+- uid: Platform.Reflection.Sigil.EmitExtensions.LoadArguments``1(Sigil.Emit{``0},System.UInt16[])
+  name: LoadArguments<TDelegate>(Emit<TDelegate>, UInt16[])
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_LoadArguments__1_Sigil_Emit___0__System_UInt16___
+  commentId: M:Platform.Reflection.Sigil.EmitExtensions.LoadArguments``1(Sigil.Emit{``0},System.UInt16[])
+  name.vb: LoadArguments(Of TDelegate)(Emit(Of TDelegate), UInt16())
+  fullName: Platform.Reflection.Sigil.EmitExtensions.LoadArguments<TDelegate>(Sigil.Emit<TDelegate>, System.UInt16[])
+  fullName.vb: Platform.Reflection.Sigil.EmitExtensions.LoadArguments(Of TDelegate)(Sigil.Emit(Of TDelegate), System.UInt16())
+  nameWithType: EmitExtensions.LoadArguments<TDelegate>(Emit<TDelegate>, UInt16[])
+  nameWithType.vb: EmitExtensions.LoadArguments(Of TDelegate)(Emit(Of TDelegate), UInt16())
+- uid: Platform.Reflection.Sigil.EmitExtensions.LoadConstant*
+  name: LoadConstant
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_LoadConstant_
+  commentId: Overload:Platform.Reflection.Sigil.EmitExtensions.LoadConstant
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.EmitExtensions.LoadConstant
+  nameWithType: EmitExtensions.LoadConstant
+- uid: Platform.Reflection.Sigil.EmitExtensions.LoadConstant``1(Sigil.Emit{``0},System.Type,System.Object)
+  name: LoadConstant<TDelegate>(Emit<TDelegate>, Type, Object)
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_LoadConstant__1_Sigil_Emit___0__System_Type_System_Object_
+  commentId: M:Platform.Reflection.Sigil.EmitExtensions.LoadConstant``1(Sigil.Emit{``0},System.Type,System.Object)
+  name.vb: LoadConstant(Of TDelegate)(Emit(Of TDelegate), Type, Object)
+  fullName: Platform.Reflection.Sigil.EmitExtensions.LoadConstant<TDelegate>(Sigil.Emit<TDelegate>, System.Type, System.Object)
+  fullName.vb: Platform.Reflection.Sigil.EmitExtensions.LoadConstant(Of TDelegate)(Sigil.Emit(Of TDelegate), System.Type, System.Object)
+  nameWithType: EmitExtensions.LoadConstant<TDelegate>(Emit<TDelegate>, Type, Object)
+  nameWithType.vb: EmitExtensions.LoadConstant(Of TDelegate)(Emit(Of TDelegate), Type, Object)
+- uid: Platform.Reflection.Sigil.EmitExtensions.LoadConstantOne*
+  name: LoadConstantOne
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_LoadConstantOne_
+  commentId: Overload:Platform.Reflection.Sigil.EmitExtensions.LoadConstantOne
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.EmitExtensions.LoadConstantOne
+  nameWithType: EmitExtensions.LoadConstantOne
+- uid: Platform.Reflection.Sigil.EmitExtensions.LoadConstantOne``1(Sigil.Emit{``0},System.Type)
+  name: LoadConstantOne<TDelegate>(Emit<TDelegate>, Type)
+  href: api/Platform.Reflection.Sigil.EmitExtensions.html#Platform_Reflection_Sigil_EmitExtensions_LoadConstantOne__1_Sigil_Emit___0__System_Type_
+  commentId: M:Platform.Reflection.Sigil.EmitExtensions.LoadConstantOne``1(Sigil.Emit{``0},System.Type)
+  name.vb: LoadConstantOne(Of TDelegate)(Emit(Of TDelegate), Type)
+  fullName: Platform.Reflection.Sigil.EmitExtensions.LoadConstantOne<TDelegate>(Sigil.Emit<TDelegate>, System.Type)
+  fullName.vb: Platform.Reflection.Sigil.EmitExtensions.LoadConstantOne(Of TDelegate)(Sigil.Emit(Of TDelegate), System.Type)
+  nameWithType: EmitExtensions.LoadConstantOne<TDelegate>(Emit<TDelegate>, Type)
+  nameWithType.vb: EmitExtensions.LoadConstantOne(Of TDelegate)(Emit(Of TDelegate), Type)
+- uid: Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory`1
+  name: NotSupportedExceptionDelegateFactory<TDelegate>
+  href: api/Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory-1.html
+  commentId: T:Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory`1
+  name.vb: NotSupportedExceptionDelegateFactory(Of TDelegate)
+  fullName: Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory<TDelegate>
+  fullName.vb: Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory(Of TDelegate)
+  nameWithType: NotSupportedExceptionDelegateFactory<TDelegate>
+  nameWithType.vb: NotSupportedExceptionDelegateFactory(Of TDelegate)
+- uid: Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory`1.Create
+  name: Create()
+  href: api/Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory-1.html#Platform_Reflection_Sigil_NotSupportedExceptionDelegateFactory_1_Create
+  commentId: M:Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory`1.Create
+  fullName: Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory<TDelegate>.Create()
+  fullName.vb: Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory(Of TDelegate).Create()
+  nameWithType: NotSupportedExceptionDelegateFactory<TDelegate>.Create()
+  nameWithType.vb: NotSupportedExceptionDelegateFactory(Of TDelegate).Create()
+- uid: Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory`1.Create*
+  name: Create
+  href: api/Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory-1.html#Platform_Reflection_Sigil_NotSupportedExceptionDelegateFactory_1_Create_
+  commentId: Overload:Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory`1.Create
+  isSpec: "True"
+  fullName: Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory<TDelegate>.Create
+  fullName.vb: Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory(Of TDelegate).Create
+  nameWithType: NotSupportedExceptionDelegateFactory<TDelegate>.Create
+  nameWithType.vb: NotSupportedExceptionDelegateFactory(Of TDelegate).Create
