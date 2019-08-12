@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "KDatGxm6jE4vI5k9HZc3VA=="
+          "hash": "7/FidGElWg+rg5wxW+5ghA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Reflection.Sigil.DelegateHelpers.html",
-          "hash": "aBqrZoiIWSnBnTmpRrDpag=="
+          "hash": "1jKmtGnTkfAigz/1mYPLZg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Reflection.Sigil.EmitExtensions.html",
-          "hash": "yvZOYV75QuZuLXQDoW/npQ=="
+          "hash": "k4iJ+iyq+w9tql0VAtlqNA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory-1.html",
-          "hash": "A4l3miQ77AmCtHKLezJg3Q=="
+          "hash": "iAqZo9VUEqPBcesN4KsLLQ=="
         }
       },
       "is_incremental": false,
