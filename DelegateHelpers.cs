@@ -16,7 +16,7 @@ namespace Platform.Reflection.Sigil
                 emitCode(emiter);
                 @delegate = emiter.CreateDelegate();
             }
-            catch(Exception exception)
+            catch (Exception exception)
             {
                 exception.Ignore();
             }
