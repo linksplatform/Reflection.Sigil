@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/linksplatform/Reflection.Sigil.svg?branch=master)](https://travis-ci.com/linksplatform/Reflection.Sigil)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d9b866d58eac428f859b2b61e3a41bb6)](https://app.codacy.com/app/drakonard/Reflection.Sigil?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Reflection.Sigil&utm_campaign=Badge_Grade_Dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/reflection.sigil/badge)](https://www.codefactor.io/repository/github/linksplatform/reflection.sigil)
 
