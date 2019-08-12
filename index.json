@@ -1,13 +1,13 @@
 {
-  "README.html": {
-    "href": "README.html",
-    "title": "Reflection.Sigil | LinksPlatform's Platform.Reflection.Sigil Library",
-    "keywords": "Reflection.Sigil LinksPlatform's Platform.Reflection.Sigil Class Library. Namespace: Platform.Reflection.Sigil Forked from: Konard/LinksPlatform/Platform/Platform.Helpers/Reflection/Sigil NuGet package: Platform.Reflection.Sigil Documentation PDF file with code for e-readers. Depend on Sigil.NetStandard Platform.Interfaces Platform.Exceptions Dependent libraries Platform.Converters Platform.Numbers Platform.Unsafe Mystery files .travis.yml - Travis CI build configuration. docfx.json and toc.yml - DocFX build configuration. format-document.sh - script for formating tex file for generating PDF from it. format-csharp-files.py - script for formating single .cs file as a part of tex file. generate-pdf.sh - script that generates PDF with code for e-readers. publish-docs.sh - script that publishes generated documentation and PDF with code for e-readers to gh-pages branch. push-nuget.bat - Windows script for publishing current version of NuGet package."
-  },
   "api/Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory-1.html": {
     "href": "api/Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory-1.html",
     "title": "Class NotSupportedExceptionDelegateFactory<TDelegate> | LinksPlatform's Platform.Reflection.Sigil Library",
     "keywords": "Class NotSupportedExceptionDelegateFactory<TDelegate> Inheritance Object NotSupportedExceptionDelegateFactory<TDelegate> Implements Platform.Interfaces.IFactory <TDelegate> Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Reflection.Sigil Assembly : Platform.Reflection.Sigil.dll Syntax public class NotSupportedExceptionDelegateFactory<TDelegate> : IFactory<TDelegate> Type Parameters Name Description TDelegate Methods | Improve this Doc View Source Create() Declaration public TDelegate Create() Returns Type Description TDelegate Implements Platform.Interfaces.IFactory<TProduct>"
+  },
+  "README.html": {
+    "href": "README.html",
+    "title": "Reflection.Sigil | LinksPlatform's Platform.Reflection.Sigil Library",
+    "keywords": "Reflection.Sigil LinksPlatform's Platform.Reflection.Sigil Class Library. Namespace: Platform.Reflection.Sigil Forked from: Konard/LinksPlatform/Platform/Platform.Helpers/Reflection/Sigil NuGet package: Platform.Reflection.Sigil Documentation PDF file with code for e-readers. Depend on Sigil.NetStandard Platform.Interfaces Platform.Exceptions Dependent libraries Platform.Converters Platform.Numbers Platform.Unsafe Mystery files .travis.yml - Travis CI build configuration. docfx.json and toc.yml - DocFX build configuration. format-document.sh - script for formating tex file for generating PDF from it. format-csharp-files.py - script for formating single .cs file as a part of tex file. generate-pdf.sh - script that generates PDF with code for e-readers. publish-docs.sh - script that publishes generated documentation and PDF with code for e-readers to gh-pages branch. push-nuget.bat - Windows script for publishing current version of NuGet package."
   },
   "api/Platform.Reflection.Sigil.html": {
     "href": "api/Platform.Reflection.Sigil.html",
