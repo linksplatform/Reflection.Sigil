@@ -29,7 +29,7 @@ XML documentation file generation turned on.</PackageReleaseNotes>
 
   <ItemGroup>
     <PackageReference Include="Sigil.NetStandard" Version="4.8.0" />
-    <PackageReference Include="Platform.Interfaces" Version="0.1.0" />
+    <PackageReference Include="Platform.Interfaces" Version="0.1.1" />
     <PackageReference Include="Platform.Exceptions" Version="0.1.1" />
   </ItemGroup>
 
