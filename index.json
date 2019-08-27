@@ -1,9 +1,4 @@
 {
-  "api/Platform.Reflection.Sigil.html": {
-    "href": "api/Platform.Reflection.Sigil.html",
-    "title": "Namespace Platform.Reflection.Sigil | LinksPlatform's Platform.Reflection.Sigil Library",
-    "keywords": "Namespace Platform.Reflection.Sigil Classes DelegateHelpers EmitExtensions NotSupportedExceptionDelegateFactory<TDelegate>"
-  },
   "README.html": {
     "href": "README.html",
     "title": "Reflection.Sigil | LinksPlatform's Platform.Reflection.Sigil Library",
@@ -18,6 +13,11 @@
     "href": "api/Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory-1.html",
     "title": "Class NotSupportedExceptionDelegateFactory<TDelegate> | LinksPlatform's Platform.Reflection.Sigil Library",
     "keywords": "Class NotSupportedExceptionDelegateFactory<TDelegate> Inheritance Object NotSupportedExceptionDelegateFactory<TDelegate> Implements Platform.Interfaces.IFactory <TDelegate> Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Reflection.Sigil Assembly : Platform.Reflection.Sigil.dll Syntax public class NotSupportedExceptionDelegateFactory<TDelegate> : IFactory<TDelegate> Type Parameters Name Description TDelegate Methods | Improve this Doc View Source Create() Declaration public TDelegate Create() Returns Type Description TDelegate Implements Platform.Interfaces.IFactory<TProduct>"
+  },
+  "api/Platform.Reflection.Sigil.html": {
+    "href": "api/Platform.Reflection.Sigil.html",
+    "title": "Namespace Platform.Reflection.Sigil | LinksPlatform's Platform.Reflection.Sigil Library",
+    "keywords": "Namespace Platform.Reflection.Sigil Classes DelegateHelpers EmitExtensions NotSupportedExceptionDelegateFactory<TDelegate>"
   },
   "api/Platform.Reflection.Sigil.EmitExtensions.html": {
     "href": "api/Platform.Reflection.Sigil.EmitExtensions.html",
