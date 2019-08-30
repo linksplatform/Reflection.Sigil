@@ -1,4 +1,9 @@
 {
+  "api/Platform.Reflection.Sigil.html": {
+    "href": "api/Platform.Reflection.Sigil.html",
+    "title": "Namespace Platform.Reflection.Sigil | LinksPlatform's Platform.Reflection.Sigil Library",
+    "keywords": "Namespace Platform.Reflection.Sigil Classes DelegateHelpers EmitExtensions NotSupportedExceptionDelegateFactory<TDelegate>"
+  },
   "README.html": {
     "href": "README.html",
     "title": "Reflection.Sigil | LinksPlatform's Platform.Reflection.Sigil Library",
@@ -13,11 +18,6 @@
     "href": "api/Platform.Reflection.Sigil.DelegateHelpers.html",
     "title": "Class DelegateHelpers | LinksPlatform's Platform.Reflection.Sigil Library",
     "keywords": "Class DelegateHelpers Inheritance Object DelegateHelpers Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Reflection.Sigil Assembly : Platform.Reflection.Sigil.dll Syntax public static class DelegateHelpers Methods | Improve this Doc View Source Compile<TDelegate>(Action<Emit<TDelegate>>) Declaration public static TDelegate Compile<TDelegate>(Action<Emit<TDelegate>> emitCode) Parameters Type Name Description Action < Sigil.Emit <TDelegate>> emitCode Returns Type Description TDelegate Type Parameters Name Description TDelegate"
-  },
-  "api/Platform.Reflection.Sigil.html": {
-    "href": "api/Platform.Reflection.Sigil.html",
-    "title": "Namespace Platform.Reflection.Sigil | LinksPlatform's Platform.Reflection.Sigil Library",
-    "keywords": "Namespace Platform.Reflection.Sigil Classes DelegateHelpers EmitExtensions NotSupportedExceptionDelegateFactory<TDelegate>"
   },
   "api/Platform.Reflection.Sigil.EmitExtensions.html": {
     "href": "api/Platform.Reflection.Sigil.EmitExtensions.html",
