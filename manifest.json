@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "1p8hVnLndG9AkaHeM0QD1g=="
+          "hash": "nCjqDG31d+3WSMCQXbGYtg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Reflection.Sigil.DelegateHelpers.html",
-          "hash": "YvV4ZPRFynLT6WRp2hRkxw=="
+          "hash": "SDAPjM9EEePWv6sdE0G1Ug=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Reflection.Sigil.EmitExtensions.html",
-          "hash": "YG6VbvXMyRwW8mM7LTXmQg=="
+          "hash": "gAwaFSll9JA9wWgBn9ZyXA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Reflection.Sigil.NotSupportedExceptionDelegateFactory-1.html",
-          "hash": "iQQNjJLJwKXQNK8kjCb6dg=="
+          "hash": "DU0XELVJpwyV0um6RT1jZg=="
         }
       },
       "is_incremental": false,
@@ -111,6 +111,13 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -121,13 +128,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
