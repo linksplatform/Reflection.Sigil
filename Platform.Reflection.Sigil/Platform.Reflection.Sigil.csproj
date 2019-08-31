@@ -28,7 +28,7 @@ XML documentation file generation turned on.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Sigil-vNext" Version="4.8.41" />
+    <PackageReference Include="Platform.Sigil" Version="4.8.43" />
     <PackageReference Include="Platform.Interfaces" Version="0.1.1" />
     <PackageReference Include="Platform.Exceptions" Version="0.2.0" />
   </ItemGroup>
