@@ -20,11 +20,6 @@ NuGet package: [Platform.Reflection.Sigil](https://www.nuget.org/packages/Platfo
 *   [Platform.Interfaces](https://github.com/linksplatform/Interfaces)
 *   [Platform.Exceptions](https://github.com/linksplatform/Exceptions)
 
-## Dependent libraries
-*   [Platform.Converters](https://github.com/linksplatform/Converters)
-*   [Platform.Numbers](https://github.com/linksplatform/Numbers)
-*   [Platform.Unsafe](https://github.com/linksplatform/Unsafe)
-
 ## Mystery files
 *   [.travis.yml](https://github.com/linksplatform/Reflection.Sigil/blob/master/.travis.yml) - Travis CI build configuration.
 *   [docfx.json](https://github.com/linksplatform/Reflection.Sigil/blob/master/docfx.json) and [toc.yml](https://github.com/linksplatform/Reflection.Sigil/blob/master/toc.yml) - DocFX build configuration.
