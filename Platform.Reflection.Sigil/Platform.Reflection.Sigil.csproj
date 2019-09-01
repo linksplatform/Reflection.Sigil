@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Reflection.Sigil Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Reflection.Sigil</AssemblyTitle>
-    <VersionPrefix>0.0.4</VersionPrefix>
+    <VersionPrefix>0.0.5</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">netstandard2.0;net461</TargetFrameworks>
     <TargetFramework Condition="'$(OS)' != 'Windows_NT'">netcoreapp2.0</TargetFramework>
@@ -22,10 +22,13 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageReleaseNotes>Temporary switching to Sigil.NetStandard package instead of Sigil.
-Platform.Interfaces dependency updated from 0.0.1 to 0.1.0.
-Platform.Exceptions dependency updated from 0.1.0 to 0.1.1.
-XML documentation file generation turned on.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added support for net461 (.NET Framework 4.6.1).
+Sigil.NetStandard dependency replaced with Platform.Sigil.
+Platform.Interfaces dependency updated from 0.1.0 to 0.1.1.
+Platform.Exceptions dependency updated from 0.1.1 to 0.2.0.
+Added tests.
+Travis CI connected.
+Issues fix.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
